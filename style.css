@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 50px 0;
+}
+.banner_right_bg{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.banner h3, p, a{
+    margin-bottom: 25px;
+}
+a.book_now_btn{
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+ol.carousel-indicators li{
+    background-color: rgb(202, 168, 54);
+    padding: 5px 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.product{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card h5{
+    font-weight: bold;
+    color: #000;
+}
+.card-footer{
+    border-top: none;
+    color: white;
+    cursor: pointer;
+    background: none;
+}
+
+.categories{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.box_shadow{
+    box-shadow: 5px 5px 25px lightgray,  -5px -5px 25px lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
